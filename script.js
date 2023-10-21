@@ -193,7 +193,7 @@ class Snake{
           }
         }
       }
-      walls() {
+        walls() {
         let { x, y } = this.pos;
         if (x + cellSize > W) {
           this.pos.x = 0;
@@ -380,6 +380,8 @@ function incrementScore() {
   }
   
   function reset() {
+
+    s
     dom_score.innerText = "00";
     score = "00";
     snake = new Snake();
