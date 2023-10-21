@@ -193,6 +193,8 @@ class Snake{
           }
         }
       }
+
+      
         walls() {
         let { x, y } = this.pos;
         if (x + cellSize > W) {
